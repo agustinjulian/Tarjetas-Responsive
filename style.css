@@ -85,6 +85,15 @@
     border-radius: 10px;
 }
 
+@media screen and (min-width: 540px){
+    .cards-section-container{
+        width: 540px;
+    }
+    .cards-section__description h3{
+        font-size: 28px;
+    }
+}
+
 @media screen and (min-width: 768px){
     .cards-section-container{
         width: 768px;
@@ -92,16 +101,19 @@
     .cards-section__description h3{
         font-size: 28px;
     }
+    .card-section__cards{
+        gap: 22px;
+    }
 }
 
 @media screen and (min-width: 1025px){
     .cards-section-container{
         width:auto;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .card-section__cards{
-        display: flex;
         flex-direction: row;
-        gap: 15px;
     }
     .cards-section__description h3{
         font-size: 36px;
